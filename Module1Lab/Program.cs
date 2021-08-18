@@ -61,12 +61,8 @@ namespace Module1Lab
              Console.WriteLine(numSugar);
              Console.WriteLine(numCheese);
              Console.WriteLine(numVanilla);
-            
-            // Console.WriteLine(n0 );
-            // Console.WriteLine(n1);
-            // Console.WriteLine(n2);
-            // Console.WriteLine(n4);
-            return null;
+             
+             return null;
         }
         
         /*

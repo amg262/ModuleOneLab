@@ -1,5 +1,8 @@
 ﻿using System;
 
+/*
+ * Namespace for containing our classes
+ */
 namespace Module1Lab
 {
     

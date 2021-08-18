@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Andy\\RiderProjects\\WeekOne\\Module1Lab\\Module1Lab\\Module1Lab.csproj",
+      "projectUniqueName": "C:\\Users\\Andy\\RiderProjects\\WeekOne\\ModuleOneLab\\ModuleOneLab\\Module1Lab\\Module1Lab.csproj",
       "projectName": "Module1Lab",
-      "projectPath": "C:\\Users\\Andy\\RiderProjects\\WeekOne\\Module1Lab\\Module1Lab\\Module1Lab.csproj",
+      "projectPath": "C:\\Users\\Andy\\RiderProjects\\WeekOne\\ModuleOneLab\\ModuleOneLab\\Module1Lab\\Module1Lab.csproj",
       "packagesPath": "C:\\Users\\Andy\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Andy\\RiderProjects\\WeekOne\\Module1Lab\\Module1Lab\\obj\\",
+      "outputPath": "C:\\Users\\Andy\\RiderProjects\\WeekOne\\ModuleOneLab\\ModuleOneLab\\Module1Lab\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Andy\\AppData\\Roaming\\NuGet\\NuGet.Config"

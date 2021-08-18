@@ -26,21 +26,21 @@ namespace Module1Lab
             double n1 = numCakes * 1 /  8;
             double n2 = numCakes * 3 / 8;
             double n4 = numCakes * 1 / 8;
-            double numEggs = numCupcakes != null ?  numCakes * (eggs / numCakes) : numCakes = 0;
-            double numSugar = numCupcakes != null ?  numCakes * (sugar / numCakes) : numCakes = 0;
-            double numCheese = numCupcakes != null ?  numCakes * (cheese / numCakes) : numCakes = 0;
-            double numVanilla = numCupcakes != null ?  numCakes * (vanilla / numCakes) : numCakes = 0;
+            double numEggs = numCupcakes != null ?  numCakes * 1 / 2 : numCakes = 0;
+            double numSugar = numCupcakes != null ?  numCakes * 1 / 8 : numCakes = 0;
+            double numCheese = numCupcakes != null ?  numCakes * 3 / 8 : numCakes = 0;
+            double numVanilla = numCupcakes != null ?  numCakes * 1 / 8 : numCakes = 0;
 
    
-            // Console.WriteLine(numEggs );
-            // Console.WriteLine(numSugar);
-            // Console.WriteLine(numCheese);
-            // Console.WriteLine(numVanilla);
+             Console.WriteLine(numEggs );
+             Console.WriteLine(numSugar);
+             Console.WriteLine(numCheese);
+             Console.WriteLine(numVanilla);
             
-            Console.WriteLine(n0 );
-            Console.WriteLine(n1);
-            Console.WriteLine(n2);
-            Console.WriteLine(n4);
+            // Console.WriteLine(n0 );
+            // Console.WriteLine(n1);
+            // Console.WriteLine(n2);
+            // Console.WriteLine(n4);
             return null;
         }
         public string LabA()
@@ -72,7 +72,7 @@ namespace Module1Lab
         {
             //Console.WriteLine("Hello World!");
             Program A = new Program();
-            //A.LabA();
+            A.LabA();
             A.LabB();
         }
     }

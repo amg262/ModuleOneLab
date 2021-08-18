@@ -62,6 +62,9 @@ namespace Module1Lab
              Console.WriteLine(numCheese);
              Console.WriteLine(numVanilla);
              
+             /*
+             * return null just run and print
+             */
              return null;
         }
         
@@ -97,9 +100,59 @@ namespace Module1Lab
                 Console.WriteLine(numOneInt - numTwoInt);
                 Console.WriteLine(numOneInt * numTwoInt);
             }
-            
+            /*
+             * return null just run and print
+             */
             return null;
         }
+
+        /*
+         * Method for assignment that gets input for number of drinks had
+         * Has preset values that will multiply based on input
+         */
+        public string AssignmentOne()
+        {
+         
+         
+            /*
+             * preset values used for math
+             */
+            double cals = 110;
+            double sugar = 27;
+            double caff = 80;
+            
+            /*
+             * Getting console input variable used in math
+             */
+            Console.WriteLine("Enter Number Monsters Drank:");
+            string monsters = Console.ReadLine();
+
+            /*
+            * assigning variables and converting for math below
+            */
+            double monstersNum = Convert.ToInt32(monsters);
+
+
+            /*
+             * validating input and getting number based on input
+             */
+            double calories = monsters != "" ? monstersNum * 2 * cals : 0;
+            double sugars = monsters != "" ? monstersNum * 2 * sugar : 0;
+            double caffeine = monsters != "" ? monstersNum * 2 * caff : 0;
+            
+            /*
+             * writing the output based on math equation
+             */
+            Console.WriteLine(calories);
+            Console.WriteLine(sugars);
+            Console.WriteLine(caffeine);
+
+            /*
+             * return null just run and print
+             */
+            return null;
+        }
+    
         
         /*
          * main console method that instantiates a new Program class
@@ -112,8 +165,9 @@ namespace Module1Lab
              * create new class and run both methods
              */
             Program A = new Program();
-            A.LabA();
-            A.LabB();
+           // A.LabA();
+            //A.LabB();
+            A.AssignmentOne();
         }
     }
 }
